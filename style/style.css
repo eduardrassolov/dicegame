@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Lobster', sans-serif;
+  background-color: #293462;
+}
+h1{
+  font-size: 8rem;
+  color: #1CD6CE;
+}
+h3{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 2rem;
+  color: #1CD6CE;
+  padding: 10%;
+}
+h1:hover{
+  cursor: pointer;
+  color: #B9FFF8;
+}
+img{
+  width: 70%;
+}
+
+
+.container{
+  text-align: center;
+  margin-top: 20px;
+}
+.dice{
+  display: inline-block;
+  text-align: center;
+  margin: 2% 5%;
+}
+.winner{
+  text-align: center;
+  margin: auto;
+}
+.winner h2{
+  color: #1CD6CE;
+
+  font-family: 'Lobster', sans-serif;
+  font-size: 4rem;
+}
+.winner-text{
+  color: #FEDB39;
+  font-size: 2.5rem;
+}
+.winner-dice{
+  width: 80%;
+}
+
+
+@media (max-width: 600px) {
+  *, html {
+    margin: 0;
+    padding: 0;
+}
+  img{
+    width: 40%;
+  }
+  h1, h2{
+    font-size: 4rem;
+  }
+  .winner-dice{
+    width: 50%;
+  }
+
+  .dice{
+    margin: 5% 0;
+    width: 200px;
+  }
+}
