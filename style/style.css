@@ -67,7 +67,10 @@ img{
   .winner-dice{
     width: 50%;
   }
-
+.container{
+    text-align: center;
+    margin: 20% 0 0 0;
+      }
   .dice{
     margin: 5% 0;
     width: 200px;
