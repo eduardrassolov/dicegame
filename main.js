@@ -28,7 +28,7 @@ function play() {
 
   let winner = whoWin(player1, player2);
   if (winner) {
-    document.querySelector('h2').innerText = `Player ${winner} - winner!`;
+    document.querySelector('h2').innerText = `Player ${winner} winner!`;
     document.querySelector(`.player${winner}`).classList.add('winner-dice');
     playerText[winner - 1].classList.add('winner-text');
   }
